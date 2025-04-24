@@ -1,0 +1,247 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hover-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-card:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="jumbotron mt-3" style="margin-bottom: 6rem;">
+        <h1 class="display-4">Welcome to Our E-commerce Website!</h1>
+
+        <hr class="my-4">
+        <p>Browse our categories and discover amazing deals today.</p>
+        <!-- Carousel -->
+        <div id="heroCarousel" class="carousel slide mb" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="~/assets/Phone images/Desktop-large_banner-Mobile_s25.jpg" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/assets/Phone images/Desktop-large_banner-Mobile_s25.jpg" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/assets/Phone images/Desktop-large_banner-Mobile_s25.jpg" class="d-block w-100" alt="Banner 3">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+        <!-- Filter Row -->
+        <div class="container my-4">
+            <div class="row">
+                <!-- 🔍 Filter Sidebar -->
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="border p-3 rounded">
+                        <h5 class="mb-3">Filters</h5>
+                        <!-- ✅ Brand Filter -->
+                        <div class="mb-3">
+                            <label class="form-label d-block">Brand</label>
+                            <div class="row row-cols-2 g-2">
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandApple" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandApple">Apple</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandSamsung" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandSamsung">Samsung</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandXiaomi" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandXiaomi">Xiaomi</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandOppo" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandOppo">Oppo</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandNokia" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandNokia">Nokia</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandVivo" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandVivo">Vivo</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandSony" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandSony">Sony</label>
+                                </div>
+                                <div class="col">
+                                    <input type="checkbox" class="btn-check" id="brandHuawei" autocomplete="off">
+                                    <label class="btn btn-outline-dark btn-sm w-100" for="brandHuawei">Huawei</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ✅ Category Filter -->
+                        <div class="mb-3">
+                            <label class="form-label d-block">Category</label>
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="phones">
+                                        <label class="form-check-label" for="phones">Phones</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="tablets">
+                                        <label class="form-check-label" for="tablets">Tablets</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="sound">
+                                        <label class="form-check-label" for="sound">Sound</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="charge">
+                                        <label class="form-check-label" for="charge">Charge</label>
+                                    </div>
+                                </div>
+                                <!-- Add more categories here if needed -->
+                            </div>
+                        </div>
+
+
+                        <!-- ✅ Price Filter -->
+                        <div class="mb-3">
+                            <label for="priceRange" class="form-label">Price Range</label>
+                            <input type="range" class="form-range" min="100" max="2000" step="100" id="priceRange">
+                            <small class="text-muted">Adjust the slider to set price range</small>
+                        </div>
+
+                        <!-- ✅ Filter Button -->
+
+                    </div>
+                </div>
+
+                <!-- Product Section -->
+                <div class="col-24 col-sm-9">
+                    <div class="product-section">
+                        <section class="container pb-4">
+                            <div class="row g-4 justify-content-start">
+                                <!-- One Product Card -->
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/15_2_7_2_5.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/dien-thoai-oppo-find-n5_h_nh_2.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/dien-thoai-samsung-galaxy-s25-ultra_3__3.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/oppo-reno10-pro-plus-tim.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/iphone-15-pro-max_3.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/iphone-16-pro_1.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/iphone-16-pro_1.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card text-center shadow-sm border-0 hover-card">
+                                        <img src="~/assets/Phone images/iphone-16-pro_1.webp"
+                                            class="img-fluid mx-auto d-block"
+                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Phone Name</h6>
+                                            <p class="card-text">$399</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication1.y9el4elazd.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Icon\\user.svg",
+      "PackagePath": "staticwebassets\\assets\\Icon\\user.svg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\15_2_7_2_5.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\15_2_7_2_5.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Desktop-large_banner-Mobile_s25.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Desktop-large_banner-Mobile_s25.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_Galaxy_Fold_2_-_Landing_Page_Banner-1200x286.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_Galaxy_Fold_2_-_Landing_Page_Banner-1200x286.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark.zip",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark.zip"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_CMYK.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_CMYK.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.png",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Black\\Samsung_Orig_Wordmark_BLACK_RGB.png"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_CMYK.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_CMYK.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_PMS_286C.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_PMS_286C.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.png",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\Blue\\Samsung_Orig_Wordmark_BLUE_RGB.png"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_CMYK.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_CMYK.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.ai",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.ai"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.png",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\Samsung_lettermark\\White\\Samsung_Orig_Wordmark_WHITE_RGB.png"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\THUMB_Galaxy-S25ultra-Media-Asset-Thumb-1440x960.jpg",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\THUMB_Galaxy-S25ultra-Media-Asset-Thumb-1440x960.jpg"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\dien-thoai-oppo-find-n5_h_nh_2.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\dien-thoai-oppo-find-n5_h_nh_2.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\dien-thoai-samsung-galaxy-s24-fe_3__4.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\dien-thoai-samsung-galaxy-s24-fe_3__4.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\dien-thoai-samsung-galaxy-s25-ultra_3__3.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\dien-thoai-samsung-galaxy-s25-ultra_3__3.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\dien-thoai-samsung-galaxy-s25_1__2.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\dien-thoai-samsung-galaxy-s25_1__2.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\iphone-15-pro-max_3.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\iphone-15-pro-max_3.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\iphone-16-pro-max.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\iphone-16-pro-max.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\iphone-16-pro_1.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\iphone-16-pro_1.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\iphone-16e-128gb.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\iphone-16e-128gb.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\oppo-reno10-pro-plus-tim.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\oppo-reno10-pro-plus-tim.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\samsung_galaxy_a06_blue_black_2_a3b9209953.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\samsung_galaxy_a06_blue_black_2_a3b9209953.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\samsung_galaxy_a06_blue_black_3_d377f49ae1.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\samsung_galaxy_a06_blue_black_3_d377f49ae1.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\assets\\Phone images\\samsung_galaxy_a06_blue_black_4_260cfb94c9.webp",
+      "PackagePath": "staticwebassets\\assets\\Phone images\\samsung_galaxy_a06_blue_black_4_260cfb94c9.webp"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

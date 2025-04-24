@@ -1,0 +1,88 @@
+@{
+    ViewData["Title"] = "Product Specification";
+}
+
+@section Styles {
+    <style>
+        .overlay-blur {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            backdrop-filter: blur(6px);
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spec-card {
+            background: white;
+            border-radius: 8px;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .d-none {
+            display: none !important;
+        }
+    </style>
+}
+
+<!-- SPECIFICATION OVERLAY -->
+<div id="spec-overlay" class="overlay-blur d-none">
+    <div class="spec-card">
+        <div class="card-header bg-primary text-white">
+            <h4>Product Specification</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered bg-white">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Specification</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Weight</td>
+                            <td>1.5 kg</td>
+                        </tr>
+                        <tr>
+                            <td>Dimensions</td>
+                            <td>10 x 20 x 30 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Aluminum</td>
+                        </tr>
+                        <tr>
+                            <td>Color</td>
+                            <td>Black</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-danger mt-3" onclick="hideSpec()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        function showSpec() {
+            document.getElementById('spec-overlay').classList.remove('d-none');
+        }
+
+        function hideSpec() {
+            document.getElementById('spec-overlay').classList.add('d-none');
+        }
+    </script>
+
+}
