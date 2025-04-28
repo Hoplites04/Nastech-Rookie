@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Coding D\\MVP Ecommerce Website\\MVP Website\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\Coding D\\MVP Ecommerce Website\\MVP Website\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\chien\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding D\\MVP Ecommerce Website\\WebApplication1\\obj\\",
+      "outputPath": "D:\\Coding D\\MVP Ecommerce Website\\MVP Website\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chien\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "/0tsB21D1kjPCo76fbL7czmwWDQn1Fqby0to9DD09U4=",
+  "Source": "ResourceServer",
+  "BasePath": "_content/ResourceServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ResourceServer\\wwwroot",
+      "Source": "ResourceServer",
+      "ContentRoot": "D:\\Coding D\\MVP Ecommerce Website\\ResourceServer\\wwwroot\\",
+      "BasePath": "_content/ResourceServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
