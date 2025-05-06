@@ -1,0 +1,28 @@
+@model WebApplication1.Models.Brand.BrandListModel
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var query = HttpContextAccessor.HttpContext.Request.Query;
+}
+
+<form id="brandFilterForm">
+    <div class="row row-cols-2 g-2">
+        <!-- One Brand Button -->
+        @foreach (var brand in Model.Brands)
+        {
+            <div class="col">
+                <div class="d-grid">
+                    <input type="checkbox"
+                            class="btn-check"
+                            name="brandIds"
+                            value="@brand.Id"
+                            id="brand-@brand.Id"
+                            @(Model.SelectedBrandIds.Contains(brand.Id) ? "checked" : "")
+                            onchange="submitFormWithoutScroll()" />
+                    <label class="btn btn-outline-dark btn-sm w-100" for="brand-@brand.Id">@brand.Name</label>
+                </div>
+            </div>
+        }
+    </div>
+
+</form>

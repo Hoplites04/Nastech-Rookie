@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace ResourceServer.Mapping.BrandDto
 {
     public class BrandCreateDto

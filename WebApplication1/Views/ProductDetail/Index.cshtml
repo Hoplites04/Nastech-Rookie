@@ -2,6 +2,8 @@
     ViewData["Title"] = "Product";
 }
 
+@model WebApplication1.Models.Product.PhoneDetailModel
+
 @section Styles {
     <style>
         .product-name {
@@ -168,23 +170,25 @@
                         alt="Brand" class="brand-logo">
                 </button>
             </div> *@
-            <p style="font-size: large;">Samsung</p>
+            <p style="font-size: large;">@Model.BrandName</p>
 
             <div class="mb-3">
                 <label class="form-label custom-label">Choose Storage:</label>
-                <div class="d-flex gap-2">
-                    <button class="btn btn-outline-dark">64 GB</button>
-                    <button class="btn btn-outline-dark">128 GB</button>
-                    <button class="btn btn-outline-dark">256 GB</button>
-                </div>
+                <div class="d-flex gap-2 btn-group" role="group" aria-label="Storage Options">
+                    @foreach (var storage in Model.AvailableStorages)
+                    {
+                        <button class="btn btn-outline-dark">@storage</button>
+                    }
+                </div>  
             </div>
 
             <div class="mb-3">
                 <label class="form-label custom-label">Choose Color:</label>
                 <div class="d-flex gap-2">
-                    <button class="btn btn-outline-dark">Red</button>
-                    <button class="btn btn-outline-dark">Blue</button>
-                    <button class="btn btn-outline-dark">Red</button>
+                    @foreach (var color in Model.AvailableColors.Distinct())
+                    {
+                        <button class="btn btn-outline-dark">@color</button>
+                    }
                     <button class="btn btn-primary" onclick="showSpec()">View Specification</button>
                 </div>
             </div>
