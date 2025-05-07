@@ -1,7 +1,7 @@
 using System.Net.Http;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models.Product;
+using SharedViewModels.ClientViewModels;
 
 namespace WebApplication1.Components.Product
 {

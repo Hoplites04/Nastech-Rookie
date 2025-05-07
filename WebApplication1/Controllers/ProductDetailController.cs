@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models.Product;
+using SharedViewModels.ClientViewModels;
 
 namespace WebApplication1.Controllers;
 
@@ -19,7 +19,7 @@ public class ProductDetailController : Controller
     public async Task<IActionResult> Index(int id)
     {
         var client = _clientFactory.CreateClient("ResourceServer");
-        var response = await client.GetAsync($"https://localhost:7251/api/Phone/{id}");
+        var response = await client.GetAsync($"https://localhost:7251/api/Phone/detail/{id}");
 
         if (!response.IsSuccessStatusCode)
         {

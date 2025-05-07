@@ -144,16 +144,15 @@ namespace AuthServer.Services
             var react_descriptor = new OpenIddictApplicationDescriptor
             {
             ClientId = "react-client",
-            ClientSecret = "react-secret",
-            ConsentType = ConsentTypes.Explicit,
+            ConsentType = ConsentTypes.Implicit,
             DisplayName = "React Client Application",
             RedirectUris =
                 {
-                    new Uri("http://localhost:3000/oauth/callback")
+                    new Uri("https://localhost:7054/signin-oidc"),
                 },
             PostLogoutRedirectUris =
                 {
-                    new Uri("http://localhost:3000/")
+                    new Uri("https://localhost:7054/")
                 },
             Permissions =
             {
@@ -165,7 +164,8 @@ namespace AuthServer.Services
                 Permissions.Scopes.Email,
                 Permissions.Scopes.Profile,
                 Permissions.Scopes.Roles,
-                Permissions.Prefixes.Scope + "api"
+                Permissions.Prefixes.Scope + "api",
+                Permissions.Prefixes.Scope + "resource_server_1"
             },
 
             };
