@@ -22,11 +22,11 @@ builder
     .Services.AddAuthentication(options =>
     {
         options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = "oidc";
+        options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
     })
-    .AddCookie()
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddOpenIdConnect(
-        "oidc",
+        OpenIdConnectDefaults.AuthenticationScheme,
         options =>
         {
             options.Authority = "https://localhost:7000"; // AuthServer base URL
@@ -40,6 +40,8 @@ builder
             options.Scope.Add("profile");
             options.Scope.Add("email");
             options.Scope.Add("roles");
+            options.Scope.Add("api"); // Your API scope
+            options.Scope.Add("resource_server_1"); // Your API scope
 
             // options.GetClaimsFromUserInfoEndpoint = true;
 
@@ -65,7 +67,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.MapDefaultControllerRoute(); 
+app.MapDefaultControllerRoute();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -78,7 +80,10 @@ app.MapGet(
     "/login",
     async context =>
     {
-        await context.ChallengeAsync("oidc", new AuthenticationProperties { RedirectUri = "/" });
+        await context.ChallengeAsync(
+            OpenIdConnectDefaults.AuthenticationScheme,
+            new AuthenticationProperties { RedirectUri = "/" }
+        );
     }
 );
 
