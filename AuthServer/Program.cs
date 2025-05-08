@@ -92,7 +92,8 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("https://localhost:7002",
                             "https://localhost:7274",
-                            "https://localhost:7054") // Removed comment to enable this origin
+                            "https://localhost:7054",
+                            "https://localhost:7000") // Moved this origin to the correct place
             .AllowAnyHeader();
 
         policy.WithOrigins("http://localhost:3000")
@@ -129,7 +130,7 @@ app.UseCors();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseStatusCodePages(); 
 app.MapControllers();
 app.MapRazorPages();
 

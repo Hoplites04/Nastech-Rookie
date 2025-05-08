@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using ResourceServer.Database;
-using ResourceServer.Services;
 using ResourceServer.Models;
 using ResourceServer.Mapping.PhoneDto;
 using Microsoft.AspNetCore.Authorization;
@@ -132,7 +131,6 @@ namespace ResourceServer.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize(AuthenticationSchemes = OpenIddictValidationAspNetCoreDefaults.AuthenticationScheme, Roles = "Admin")]
         public async Task<IActionResult> GetPhoneById(int id)
         {
             var phone = await _context.Phones
@@ -155,6 +153,7 @@ namespace ResourceServer.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(AuthenticationSchemes = OpenIddictValidationAspNetCoreDefaults.AuthenticationScheme, Roles = "Admin")]
         public async Task<IActionResult> UpdatePhone(int id, [FromBody] PhoneCreateDto dto)
         {
             if (!ModelState.IsValid)
