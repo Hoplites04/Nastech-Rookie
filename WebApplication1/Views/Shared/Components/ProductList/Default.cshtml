@@ -1,21 +1,66 @@
 @model List<SharedViewModels.ClientViewModels.PhoneModel>
 
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<style>
+    #product-list {
+        max-height: 100vh;
+        min-height: 100vh; /* 80% of viewport height */
+        overflow-y: auto;
+        padding-right: 10px; /* space for scrollbar */
+        scroll-behavior: smooth;
+    }
+
+    .hover-card:hover {
+        transform: scale(1.02);
+        transition: transform 0.2s ease;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .no-products {
+        text-align: center;
+        padding: 100px 0;
+        font-size: 1.2rem;
+        color: #777;
+    }
+</style>
+
 <div id="product-list">
     <div class="row g-4 justify-content-start">
-        @foreach (var phone in Model)
+        @if (Model != null && Model.Any())
         {
-            <div class="col-6 col-md-4 col-lg-3">
-                <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@phone.Id" class="text-decoration-none text-dark">
-                <div class="card text-center shadow-sm border-0 hover-card">
-                    <img src="~/assets/Phone images/15_2_7_2_5.webp"
-                         class="img-fluid mx-auto d-block"
-                         style="width: 179px; height: 179px; object-fit: cover;"
-                         alt="@phone.Name">
-                    <div class="card-body">
-                        <h6 class="card-title">@phone.Name</h6>
-                    </div>
+            foreach (var phone in Model)
+            {
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a asp-controller="ProductDetail"
+                       asp-action=""
+                       asp-route-id="@phone.Id"
+                       class="text-decoration-none text-dark">
+                        <div class="card text-center shadow-sm border-0 hover-card">
+                            <img src="~/assets/Phone images/15_2_7_2_5.webp"
+                                 class="img-fluid mx-auto d-block"
+                                 style="width: 179px; height: 179px; object-fit: cover;"
+                                 alt="@phone.Name" />
+                            <div class="card-body">
+                                <h6 class="card-title">@phone.Name</h6>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                </a>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="no-products">
+                    No phones found matching your criteria.
+                </div>
             </div>
         }
     </div>

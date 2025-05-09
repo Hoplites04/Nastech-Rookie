@@ -71,76 +71,17 @@
 
                             
                         </div>
-                        <!-- ✅ Category Filter -->
-                        <div class="mb-3">
-                            <label class="form-label d-block">Category</label>
-                            <div class="row row-cols-2">
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="phones">
-                                        <label class="form-check-label" for="phones">Phones</label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="tablets">
-                                        <label class="form-check-label" for="tablets">Tablets</label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="sound">
-                                        <label class="form-check-label" for="sound">Sound</label>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="charge">
-                                        <label class="form-check-label" for="charge">Charge</label>
-                                    </div>
-                                </div>
-                                <!-- Add more categories here if needed -->
-                            </div>
-                        </div>
-
-
-                        <!-- ✅ Price Filter -->
-                        <div class="mb-3">
-                            <label for="priceRange" class="form-label">Price Range</label>
-                            <input type="range" class="form-range" min="100" max="2000" step="100" id="priceRange">
-                            <small class="text-muted">Adjust the slider to set price range</small>
-                        </div>
-
-                        <!-- ✅ Filter Button -->
 
                     </div>
                 </div>
 
                 <!-- Product Section -->
-                <div class="col-24 col-sm-9">
+                <div class="col-24 col-sm-9" >
                     <div class="product-section">
                         <!-- Product session -->
                         <section class="container pb-4">
 
                             @await Component.InvokeAsync("ProductList")
-
-                            @* <!-- One Product Row -->
-                            <div class="row g-4 justify-content-start">
-                                <!-- One Product Card -->
-                                <div class="col-6 col-md-4 col-lg-3">
-                                    <div class="card text-center shadow-sm border-0 hover-card">
-                                        <img src="~/assets/Phone images/15_2_7_2_5.webp"
-                                            class="img-fluid mx-auto d-block"
-                                            style="width: 179px; height: 179px; object-fit: cover;" alt="Phone">
-                                        <div class="card-body">
-                                            <h6 class="card-title">Phone Name</h6>
-                                            <p class="card-text">$399</p>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <!-- One Product Card -->
-                            </div>
-                            <!-- One Product Row --> *@
 
                         </section>
                         <!-- Product session -->
@@ -161,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const url = `/?${params.toString()}`;
 
         // ✅ Record current scroll position
-        const scrollY = window.scrollY;
 
         try {
             const response = await fetch(url, {
@@ -180,8 +120,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     const currentList = document.getElementById("product-list");
                     currentList.innerHTML = newList.innerHTML;
 
-                    // ✅ Restore scroll position to avoid visual jump
-                    window.scrollTo({ top: scrollY, behavior: "auto" });
                 }
             }
         } catch (err) {

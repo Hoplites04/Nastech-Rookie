@@ -18,7 +18,7 @@
                             value="@brand.Id"
                             id="brand-@brand.Id"
                             @(Model.SelectedBrandIds.Contains(brand.Id) ? "checked" : "")
-                            onchange="submitFormWithoutScroll()" />
+                             />
                     <label class="btn btn-outline-dark btn-sm w-100" for="brand-@brand.Id">@brand.Name</label>
                 </div>
             </div>
