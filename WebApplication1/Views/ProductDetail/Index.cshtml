@@ -110,7 +110,7 @@
             font-size: 30px;
             background: transparent;
             border: none;
-            color:black;
+            color: black;
             font-weight: bold;
             cursor: pointer;
             z-index: 1001;
@@ -129,23 +129,18 @@
         <!-- Carousel Section with Fixed Box -->
         <div class="col-md-7 d-flex justify-content-start align-items-start">
             <div id="productCarousel" class="carousel slide border rounded" data-bs-ride="carousel"
-                style="width: 620px; height: 466px; background-color: #f8f9fa;">
-                <div class="carousel-inner d-flex align-items-center " style="height: 100%; width: 100%">
-                    <div class="carousel-item active text-center">
-                        <img src="~/assets/Phone images/THUMB_Galaxy-S25ultra-Media-Asset-Thumb-1440x960.jpg"
-                            class="object-fit: scale-down"
-                            style="max-height: 100%; max-width: 100%; object-fit: contain;" alt="Image 1">
-                    </div>
-                    <div class="carousel-item text-center">
-                        <img src="~/assets/Phone images/THUMB_Galaxy-S25ultra-Media-Asset-Thumb-1440x960.jpg"
-                            class="object-fit: scale-down"
-                            style="max-height: 100%; max-width: 100%; object-fit: contain;" alt="Image 2">
-                    </div>
-                    <div class="carousel-item text-center">
-                        <img src="~/assets/Phone images/THUMB_Galaxy-S25ultra-Media-Asset-Thumb-1440x960.jpg"
-                            class="object-fit: scale-down"
-                            style="max-height: 100%; max-width: 100%; object-fit: contain;" alt="Image 3">
-                    </div>
+                style="width: 620px; height: 620px; background-color: #f8f9fa; overflow: hidden;">
+
+                <div class="carousel-inner" style="height: 100%; width: 100%;">
+                    @for (int i = 0; i < Model.Images.Count; i++)
+                    {
+                        var image = Model.Images[i];
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <img src="@image.ImageUrl"
+                                style="height: 100%; width: 100%; object-fit: contain; object-position: center;"
+                                class="d-block" />
+                        </div>
+                    }
                 </div>
 
                 <!-- Navigation Buttons -->
@@ -179,7 +174,7 @@
                     {
                         <button class="btn btn-outline-dark">@storage</button>
                     }
-                </div>  
+                </div>
             </div>
 
             <div class="mb-3">

@@ -1,4 +1,0 @@
-namespace ResourceServer.Mapping.BrandDto
-{
-    
-}

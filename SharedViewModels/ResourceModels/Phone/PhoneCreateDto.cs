@@ -1,4 +1,4 @@
-namespace SharedViewModels.ResourceModels;
+namespace SharedViewModels.ResourceModels.Phone;
 using System.ComponentModel.DataAnnotations;
 
 public class PhoneCreateDto

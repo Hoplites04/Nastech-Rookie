@@ -9,4 +9,8 @@ public class PhoneModel
     public string? Description { get; set; }
 
     public int PhoneBrandId { get; set; }
+
+    public string PhoneBrandName { get; set; } = string.Empty;
+
+    public string? MainImageUrl { get; set; }
 }

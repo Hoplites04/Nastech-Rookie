@@ -12,6 +12,7 @@ public class PhoneDetailModel
     public List<string> AvailableStorages { get; set; } = new();
 
     public List<PhoneVariantItem> Variants { get; set; } = new();
+    public List<PhoneImageItem> Images { get; set; } = new();
 }
 
 public class PhoneVariantItem
@@ -20,4 +21,11 @@ public class PhoneVariantItem
     public string Color { get; set; } = string.Empty;
     public string Storage { get; set; } = string.Empty;
     public decimal Price { get; set; }
+}
+
+public class PhoneImageItem
+{
+    public string ImageUrl { get; set; } = string.Empty;
+    public bool IsMain { get; set; }
+    public int DisplayOrder { get; set; }
 }

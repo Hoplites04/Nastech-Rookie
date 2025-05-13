@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ResourceServer.Models;
+using SharedViewModels.ViewModels;
 
 namespace ResourceServer.Database
 {
@@ -18,7 +18,6 @@ namespace ResourceServer.Database
     public DbSet<PhoneVariant> PhoneVariants { get; set; }
     public DbSet<PhoneRating> PhoneRatings { get; set; }
 
-    // 💥 Đây nè!
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

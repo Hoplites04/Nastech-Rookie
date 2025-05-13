@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using ResourceServer.Database;
-using ResourceServer.Models;
-using ResourceServer.Mapping.PhoneDto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using SharedViewModels.ResourceModels;
+using SharedViewModels.ResourceModels.Phone;
+using SharedViewModels.ClientViewModels;
+using SharedViewModels.ViewModels;
 using OpenIddict.Abstractions;
 using OpenIddict.Validation.AspNetCore;
 
@@ -27,7 +27,8 @@ namespace ResourceServer.Controllers
         public async Task<IActionResult> GetPhones([FromQuery] int? brandId, [FromQuery] List<int> brandIds)
         {
             var query = _context.Phones
-                .Include(p => p.PhoneBrand) // ✅ Include brand for navigation
+                .Include(p => p.PhoneBrand)
+                .Include(p => p.Images)
                 .AsQueryable();
 
             if (brandIds != null && brandIds.Count > 0)
@@ -45,7 +46,12 @@ namespace ResourceServer.Controllers
                 p.Name,
                 p.Description,
                 p.PhoneBrandId,
-                BrandName = p.PhoneBrand.Name
+                BrandName = p.PhoneBrand.Name,
+                MainImageUrl = p.Images
+                .Where(img => img.IsMain)
+                .OrderBy(img => img.DisplayOrder)
+                .Select(img => img.ImageUrl)
+                .FirstOrDefault()
             }).ToListAsync();
 
             return Ok(result);
@@ -69,8 +75,13 @@ namespace ResourceServer.Controllers
             var variants = await _context.PhoneVariants
                 .Where(v => v.PhoneId == id)
                 .ToListAsync();
+            
+            var images = await _context.PhoneImages
+                .Where(img => img.PhoneId == id)
+                .OrderBy(img => img.DisplayOrder)
+                .ToListAsync();
 
-            var detail = new PhoneDetailDto
+            var detail = new PhoneDetailModel
             {
                 PhoneId = phone.Id,
                 Name = phone.Name,
@@ -80,13 +91,20 @@ namespace ResourceServer.Controllers
                 AvailableColors = variants.Select(v => v.Color).Distinct().ToList(),
                 AvailableStorages = variants.Select(v => v.Storage).Distinct().ToList(),
 
-                Variants = variants.Select(v => new PhoneVariantDto
+                Variants = variants.Select(v => new PhoneVariantItem
                 {
-                    VariantId = v.Id,
+                    Id = v.Id,
                     Color = v.Color,
                     Storage = v.Storage,
                     Price = v.Price
-                }).ToList()
+                }).ToList(),
+
+                Images = images.Select(img => new PhoneImageItem
+                {
+                    ImageUrl = $"https://localhost:7251/{img.ImageUrl}",
+                    IsMain = img.IsMain,
+                    DisplayOrder = img.DisplayOrder
+                }).ToList(),
             };
 
             return Ok(detail);

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ResourceServer.Database;
-using ResourceServer.Models;
-using ResourceServer.Mapping.BrandDto;
+using SharedViewModels.ResourceModels.Brand;
+using SharedViewModels.ViewModels;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 

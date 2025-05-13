@@ -75,6 +75,12 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    await SeedHelper.SeedAsync(context);  // <- This is your seeder method
+}
+
 app.UseCors();
 app.UseStaticFiles();
 app.UseRouting();
